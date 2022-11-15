@@ -1,11 +1,4 @@
-// import firebase from "firebase";
-// import { initializeApp } from 'firebase/app';
-// import { GoogleAuthProvider, getAuth } from 'firebase/auth';
-// // import { getFirestore } from "firebase/firestore";
-// import {getDatabase} from 'firebase/database';
 import firebase from "firebase";
-
-// TODO: Replace the following with your app's Firebase project configuration
 
 const firebaseConfig = {
     apiKey: "AIzaSyD_XA60mrYki_hKnGzd3ctaaoHl6B3kQlg",
@@ -17,7 +10,6 @@ const firebaseConfig = {
     measurementId: "G-RXS8LYEV7K"
   };
 
-// const app = initializeApp(firebaseConfig);
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
